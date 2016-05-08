@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hera.MassTransit", "Hera.MassTransit\Hera.MassTransit.csproj", "{A794DFA8-BD15-4533-A18A-5469BB11BD6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hera.DomainModeling", "..\Hera.DomainModeling\Hera.DomainModeling\Hera.DomainModeling.csproj", "{BF25F3D5-2222-442C-8C2A-7E67DAA3ACD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hera", "..\Hera\Hera\Hera.csproj", "{568F400B-631B-466B-98F8-16EEE07D4A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hera.Persistence.MongoDb", "..\Hera.Persistence.MongoDb\Hera.Persistence.MongoDb\Hera.Persistence.MongoDb.csproj", "{D2CDE5E7-05F0-4B45-9F57-2F96C6915D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hera.MassTransit.Tests", "Hera.MassTransit.Tests\Hera.MassTransit.Tests.csproj", "{CDEC252A-FD5C-47DC-9AE2-4295EBCA8BF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A794DFA8-BD15-4533-A18A-5469BB11BD6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A794DFA8-BD15-4533-A18A-5469BB11BD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A794DFA8-BD15-4533-A18A-5469BB11BD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A794DFA8-BD15-4533-A18A-5469BB11BD6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF25F3D5-2222-442C-8C2A-7E67DAA3ACD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF25F3D5-2222-442C-8C2A-7E67DAA3ACD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF25F3D5-2222-442C-8C2A-7E67DAA3ACD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF25F3D5-2222-442C-8C2A-7E67DAA3ACD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{568F400B-631B-466B-98F8-16EEE07D4A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{568F400B-631B-466B-98F8-16EEE07D4A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{568F400B-631B-466B-98F8-16EEE07D4A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{568F400B-631B-466B-98F8-16EEE07D4A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2CDE5E7-05F0-4B45-9F57-2F96C6915D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CDE5E7-05F0-4B45-9F57-2F96C6915D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CDE5E7-05F0-4B45-9F57-2F96C6915D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CDE5E7-05F0-4B45-9F57-2F96C6915D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDEC252A-FD5C-47DC-9AE2-4295EBCA8BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEC252A-FD5C-47DC-9AE2-4295EBCA8BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEC252A-FD5C-47DC-9AE2-4295EBCA8BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEC252A-FD5C-47DC-9AE2-4295EBCA8BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
